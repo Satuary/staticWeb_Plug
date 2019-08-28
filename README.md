@@ -12,6 +12,7 @@
 1. 返回头部元素设定id='goToTop'
 2. css可自定义
 
+<br/>
 
 ```js
 $("body").backTop()
@@ -75,7 +76,7 @@ $("body").backTop({
 
 1. model = 0 设置 height，model = 1 设置pading
 2. 偏移值：offsetNum=padding-top + offsetNum / -offsetNum padding-top - offsetNum
-
+<br/>
 
 ```js
 $(".bannerText").fullScreen();
@@ -112,7 +113,7 @@ $(".banner").fullScreen({
 1. 锚点a标签必须添加'anchorJump' className
 2. 默认的导航栏滚动后className是“headerScroll” 
 3. 自定义操作会在点击锚点跳转和页面滚动的时候执行
-
+<br/>
 
 ```js
 $(".navbar").anchor({
