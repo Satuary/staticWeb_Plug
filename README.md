@@ -60,8 +60,8 @@ $("body").backTop({
 }
 ```
 
- 
--------
+ <br/> <br/> <br/>
+ ====
 ### fullScreen满屏插件
 -------
 * ExcludeObj：需要排除(减掉)的元素<br/>
@@ -94,9 +94,10 @@ $(".banner").fullScreen({
 	media: 640
 });
 ```
-
- -------
-
+ 
+ 
+ <br/> <br/> <br/>
+ ====
 ### anchor锚点跳转滚动
 -------
 
