@@ -62,7 +62,8 @@ $("body").backTop({
 
 <br/> 
 ### fullScreen满屏插件
-====
+ 
+====  
 * ExcludeObj：需要排除(减掉)的元素<br/>
 * model：设置属性使自身满屏 0 / 1<br/>
 * offsetNum：偏移值，在居中的基础上偏移<br/>
@@ -97,7 +98,8 @@ $(".banner").fullScreen({
  
 <br/>
 ### anchor锚点跳转滚动
-====
+ 
+====  
 
 * navClass：滚动后添加的className<br/>
 * excludeObj：不包含进导航栏的区块<br/>
