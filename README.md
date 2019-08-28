@@ -60,7 +60,6 @@ $("body").backTop({
 }
 ```
 
-<br/> 
 ### fullScreen满屏插件
 
 * ExcludeObj：需要排除(减掉)的元素<br/>
@@ -94,8 +93,7 @@ $(".banner").fullScreen({
 });
 ```
  
- 
-<br/>
+
 ### anchor锚点跳转滚动
 
 * navClass：滚动后添加的className<br/>
