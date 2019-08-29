@@ -4,6 +4,42 @@
 
 <br/>
 
+### fullScreen满屏插件
+-------
+
+* ExcludeObj：需要排除(减掉)的元素<br/>
+* model：设置属性使自身满屏 0 / 1<br/>
+* offsetNum：偏移值，在居中的基础上偏移<br/>
+* media：哪个分辨率下不执行全屏<br/>
+
+#### 注意：
+
+1. model = 0 设置 height，model = 1 设置pading
+2. 偏移值：offsetNum=padding-top + offsetNum / -offsetNum padding-top - offsetNum
+<br/>
+
+```js
+$(".bannerText").fullScreen();
+```
+
+```js
+// 设置排除元素
+$(".content_box").fullScreen({
+	model: 0,
+	ExcludeObj: [$(".navbar"), $(".content .form")]
+});
+```
+
+```js
+// 设置偏移值和不起效分辨率
+$(".banner").fullScreen({
+	offsetNum: -20,
+	media: 640
+});
+```
+
+<br/>
+
 ### backTop返回顶部
 -------
 * backTopSpeed：返回顶部速度<br/>
@@ -62,42 +98,6 @@ $("body").backTop({
 	position: absolute;
 	transform: rotate(-132deg) translate(-20px,-22px);
 }
-```
-
-<br/>
-
-### fullScreen满屏插件
--------
-
-* ExcludeObj：需要排除(减掉)的元素<br/>
-* model：设置属性使自身满屏 0 / 1<br/>
-* offsetNum：偏移值，在居中的基础上偏移<br/>
-* media：哪个分辨率下不执行全屏<br/>
-
-#### 注意：
-
-1. model = 0 设置 height，model = 1 设置pading
-2. 偏移值：offsetNum=padding-top + offsetNum / -offsetNum padding-top - offsetNum
-<br/>
-
-```js
-$(".bannerText").fullScreen();
-```
-
-```js
-// 设置排除元素
-$(".content_box").fullScreen({
-	model: 0,
-	ExcludeObj: [$(".navbar"), $(".content .form")]
-});
-```
-
-```js
-// 设置偏移值和不起效分辨率
-$(".banner").fullScreen({
-	offsetNum: -20,
-	media: 640
-});
 ```
 
 <br/>
